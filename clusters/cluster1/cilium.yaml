@@ -5,8 +5,6 @@ metadata:
   name: infrastructure-cilium
   namespace: flux-system
 spec:
-  dependsOn:
-    - name: infrastructure
   path: ./infrastructure/cilium/cluster1
   prune: true
   sourceRef:
