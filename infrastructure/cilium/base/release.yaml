@@ -92,3 +92,4 @@ spec:
       operator:
         name: cilium-operator
     tunnel: vxlan
+    autoDirectNodeRoutes: true
