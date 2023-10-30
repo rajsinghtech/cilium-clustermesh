@@ -9,4 +9,4 @@ spec:
     cluster:
       id: 202
       name: cluster2
-    k8sServiceHost: 10.69.50.202
+    k8sServiceHost: 10.69.59.202
