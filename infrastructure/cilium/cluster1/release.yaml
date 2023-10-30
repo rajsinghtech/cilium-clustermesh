@@ -10,3 +10,11 @@ spec:
       id: 1
       name: cluster1
     k8sServiceHost: 10.69.59.201
+    clustermesh:
+      config:
+        clusters:
+        - ips:
+          - 10.69.59.202
+          name: cluster2
+          port: 32379
+        enabled: true

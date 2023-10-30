@@ -26,6 +26,10 @@ spec:
   uninstall:
     keepHistory: false
   values:
+    bgp:
+      enabled: false
+    bpf:
+      masquerade: true
     clustermesh:
       apiserver:
         kvstoremesh:
@@ -40,19 +44,15 @@ spec:
       useAPIServer: true
     devices:
     - eth0
-    bgp:
-      enabled: false
-    bpf:
-      masquerade: true
     enableIPv6Masquerade: false
     endpointRoutes:
       enabled: true
     externalIPs:
       enabled: true
-    extraConfig:
-      enable-ipv6-ndp: "false"
     externalWorkloads:
       enabled: false
+    extraConfig:
+      enable-ipv6-ndp: "false"
     hubble:
       relay:
         enabled: true
