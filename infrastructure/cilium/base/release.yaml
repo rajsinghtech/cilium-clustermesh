@@ -31,7 +31,7 @@ spec:
         kvstoremesh:
           enabled: false
         service:
-          type: LoadBalancer
+          type: NodePort
         tls:
           auto:
             enabled: true
