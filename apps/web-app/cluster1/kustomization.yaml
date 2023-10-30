@@ -4,7 +4,3 @@ namespace: test
 resources:
   - ../base
   - ./deployment.yaml
-patches:
-  - path: release.yaml
-    target:
-      kind: HelmRelease
