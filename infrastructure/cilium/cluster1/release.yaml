@@ -1,0 +1,12 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: cilium
+  namespace: kube-system
+spec:
+  values:
+    cluster:
+      id: 201
+      name: cluster1
+    k8sServiceHost: 10.69.50.201
