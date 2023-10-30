@@ -7,6 +7,6 @@ metadata:
 spec:
   values:
     cluster:
-      id: 202
+      id: 2
       name: cluster2
     k8sServiceHost: 10.69.59.202
